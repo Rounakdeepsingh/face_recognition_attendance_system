@@ -106,6 +106,7 @@ cd face_recognition_attendance_system
 pip install opencv-python face-recognition numpy pandas  
 
 # Run the app  
+
 python main.py  
 👨‍💻 Contributing
 Contributions are always welcome!
@@ -117,8 +118,9 @@ This project is licensed under the MIT License. See LICENSE for details.
 🙏 Acknowledgments
 Thanks to OpenAI, dlib, OpenCV, face_recognition library developers.
 Inspired by open-source face recognition and attendance projects.
-✅ Steps to Add This README to Your Repo
 
+
+✅ Steps to Add This README to Your Repo
 Create README.md in your project folder
 Add and Commit the README:
 git add README.md  
