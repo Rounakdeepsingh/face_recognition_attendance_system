@@ -1,7 +1,9 @@
 🎓 Face Recognition Attendance System
+
 A powerful and scalable Face Recognition-based Attendance System built with Python, OpenCV, and the Face Recognition library. This system automatically marks attendance by recognizing faces from a live camera feed, storing the data securely for future records and audits.
 
 🚀 Key Features
+
 ✅ Real-time Face Detection & Recognition
 ✅ Automatic Attendance Logging with timestamp & date
 ✅ CSV-based Attendance Report (extendable to Firebase or other databases)
@@ -10,12 +12,19 @@ A powerful and scalable Face Recognition-based Attendance System built with Pyth
 ✅ Optimized for speed and accuracy using face_recognition and OpenCV
 
 🏗 Tech Stack
+
 Python 3.8+
+
 OpenCV — For computer vision and video processing
+
 face_recognition — High accuracy face detection and recognition
+
 NumPy — For array operations
+
 Pandas — To manage and store attendance data
+
 Firebase (Optional) — For real-time attendance storage and dashboard (extendable)
+
 Tkinter (Optional) — For GUI interface (future improvements)
 
 📂 Project Structure
@@ -33,18 +42,24 @@ Face_recognition_attendance_system/
 ⚙ Installation & Setup
 
 1. Clone the Repository
+    
 git clone https://github.com/Rounakdeepsingh/face_recognition_attendance_system.git  
+
 cd face_recognition_attendance_system  
 
-2. Install Dependencies
+3. Install Dependencies
+   
 Ensure Python 3.8+ is installed. Then, install required packages:
+
 pip install opencv-python face-recognition numpy pandas  
 
-3. Add Images for Recognition
+5. Add Images for Recognition
+   
 Place clear images of faces you want to recognize in the images/ folder.
 Important: Name each image with the person's full name (e.g., John_Doe.png).
 
-4. Run the Application
+6. Run the Application
+   
 python main.py  
 
 📊 Attendance Output Example
@@ -62,10 +77,15 @@ Firebase can be used to store attendance data in real-time and display it on a w
 🔑 Setup Firebase:
 
 Go to Firebase Console, create a project.
+
 Enable Cloud Firestore in test mode.
+
 Navigate to Project Settings > Service Accounts.
+
 Generate a new private key and download the JSON file.
+
 Rename the file to firebase_key.json and place it in the project root.
+
 
 ✅ Example Data in Firestore:
 
@@ -76,30 +96,42 @@ Fields:
 - ID: "001"  
 - Date: "2025-03-11"  
 - Time: "09:30:00"  
-- Status: "Present"  
+- Status: "Present"
+  
 
 📦 Install Firebase Admin SDK (Optional):
 
 pip install firebase-admin  
 
+
 📲 Firebase Benefits:
 
 Real-time attendance updates.
+
 Access data from anywhere via web or mobile.
+
 Secured and backed up storage.
+
 Note: Contact for ready-to-use Firebase-integrated code!
+
 
 💡 Future Improvements
 
 ✅ GUI Interface using Tkinter or PyQt
+
 ✅ Cloud-based Dashboard with Firebase/SQL backend
+
 ✅ Admin Panel to manage and analyze attendance
+
 ✅ Mobile App support for teachers and students
+
 ✅ Email & SMS alerts for absent students
+
 ✅ Performance optimization for large student datasets
 
+
 📸 Screenshots (Optional)
-Add screenshots of live detection, attendance generation, and Firebase database (optional).
+
 
 ⚙ Quick Setup Recap
 # Clone repo  
