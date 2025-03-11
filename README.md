@@ -19,9 +19,7 @@ Firebase (Optional) — For real-time attendance storage and dashboard (extendab
 Tkinter (Optional) — For GUI interface (future improvements)
 
 📂 Project Structure
-bash
-Copy
-Edit
+
 Face_recognition_attendance_system/  
 │  
 ├── images/                # Folder containing known face images  
@@ -33,6 +31,7 @@ Face_recognition_attendance_system/
 └── .gitignore            # Files/folders to ignore in git  
 
 ⚙ Installation & Setup
+
 1. Clone the Repository
 git clone https://github.com/Rounakdeepsingh/face_recognition_attendance_system.git  
 cd face_recognition_attendance_system  
@@ -49,6 +48,7 @@ Important: Name each image with the person's full name (e.g., John_Doe.png).
 python main.py  
 
 📊 Attendance Output Example
+
 Name	Time	Date
 Rounak	10:15:23	2025-03-11
 John Doe	10:16:45	2025-03-11
@@ -56,9 +56,11 @@ John Doe	10:16:45	2025-03-11
 Note: Attendance is automatically saved in attendance.csv.
 
 ☁️ Firebase Integration (Optional & Extendable)
+
 Firebase can be used to store attendance data in real-time and display it on a web dashboard.
 
 🔑 Setup Firebase:
+
 Go to Firebase Console, create a project.
 Enable Cloud Firestore in test mode.
 Navigate to Project Settings > Service Accounts.
@@ -66,6 +68,7 @@ Generate a new private key and download the JSON file.
 Rename the file to firebase_key.json and place it in the project root.
 
 ✅ Example Data in Firestore:
+
 Collection: Attendance  
 Document ID: Auto-generated  
 Fields:  
@@ -76,15 +79,18 @@ Fields:
 - Status: "Present"  
 
 📦 Install Firebase Admin SDK (Optional):
+
 pip install firebase-admin  
 
 📲 Firebase Benefits:
+
 Real-time attendance updates.
 Access data from anywhere via web or mobile.
 Secured and backed up storage.
 Note: Contact for ready-to-use Firebase-integrated code!
 
 💡 Future Improvements
+
 ✅ GUI Interface using Tkinter or PyQt
 ✅ Cloud-based Dashboard with Firebase/SQL backend
 ✅ Admin Panel to manage and analyze attendance
@@ -108,19 +114,24 @@ pip install opencv-python face-recognition numpy pandas
 # Run the app  
 
 python main.py  
+
 👨‍💻 Contributing
+
 Contributions are always welcome!
 If you have suggestions, improvements, or bug reports, feel free to open an issue or submit a pull request.
 
 📜 License
+
 This project is licensed under the MIT License. See LICENSE for details.
 
 🙏 Acknowledgments
+
 Thanks to OpenAI, dlib, OpenCV, face_recognition library developers.
 Inspired by open-source face recognition and attendance projects.
 
 
 ✅ Steps to Add This README to Your Repo
+
 Create README.md in your project folder
 Add and Commit the README:
 git add README.md  
