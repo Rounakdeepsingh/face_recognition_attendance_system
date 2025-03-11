@@ -1,0 +1,13 @@
+# Firebase key file (Do NOT upload)
+serviceAccountKey.json
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# VS Code settings (optional)
+.vscode/
+
+# Other OS files (optional)
+.DS_Store
+Thumbs.db
