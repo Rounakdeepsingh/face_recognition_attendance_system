@@ -2,6 +2,20 @@
 
 A powerful and scalable Face Recognition-based Attendance System built with Python, OpenCV, and the Face Recognition library. This system automatically marks attendance by recognizing faces from a live camera feed, storing the data securely for future records and audits.
 
+📄 Publication
+
+This project is officially published in the International Journal of Emerging Technologies and Innovative Research (JETIR). You can read the full paper here:
+
+🔗 Face Recognition Attendance System - JETIR Paper
+
+🏅 Certification
+
+The details of certification related to this project are officially documented in the published research paper.
+You can access the paper here:
+🔗 View Published Paper
+
+📝 This paper includes the certification acknowledgment for the Face Recognition Attendance System, validating its authenticity and technical implementation.
+
 🚀 Key Features
 
 ✅ Real-time Face Detection & Recognition
@@ -130,10 +144,17 @@ Note: Contact for ready-to-use Firebase-integrated code!
 ✅ Performance optimization for large student datasets
 
 
-📸 Screenshots (Optional)
+📸 Screenshots 
+
+![image](https://github.com/user-attachments/assets/b45113b9-bd7f-4b51-8a63-8da8d2595976)
+
+![image](https://github.com/user-attachments/assets/ba11fa99-ff4a-42c5-a5b5-5cd1b319fae7)
+
+![image](https://github.com/user-attachments/assets/11f3b117-18a1-4961-8c85-32bd85221f51)
 
 
 ⚙ Quick Setup Recap
+
 # Clone repo  
 git clone https://github.com/Rounakdeepsingh/face_recognition_attendance_system.git  
 
@@ -165,6 +186,7 @@ Inspired by open-source face recognition and attendance projects.
 ✅ Steps to Add This README to Your Repo
 
 Create README.md in your project folder
+
 Add and Commit the README:
 git add README.md  
 git commit -m "Added professional README with Firebase integration"  
