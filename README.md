@@ -7,12 +7,14 @@ A powerful and scalable Face Recognition-based Attendance System built with Pyth
 This project is officially published in the International Journal of Emerging Technologies and Innovative Research (JETIR). You can read the full paper here:
 
 🔗 Face Recognition Attendance System - JETIR Paper
+https://www.jetir.org/view?paper=JETIR2406704
 
 🏅 Certification
 
 The details of certification related to this project are officially documented in the published research paper.
 You can access the paper here:
 🔗 View Published Paper
+https://www.jetir.org/view?paper=JETIR2406704
 
 📝 This paper includes the certification acknowledgment for the Face Recognition Attendance System, validating its authenticity and technical implementation.
 
